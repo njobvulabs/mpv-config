@@ -34,6 +34,8 @@ rm -rf /tmp/mpv-config
 | UP | Volume +5 |
 | DOWN | Volume -5 |
 | m | Mute |
+| Two-finger scroll up | Volume +5 |
+| Two-finger scroll down | Volume -5 |
 
 ### Seeking
 | Key | Action |
@@ -42,6 +44,10 @@ rm -rf /tmp/mpv-config
 | RIGHT | Seek +10s |
 | Shift+LEFT | Seek -5s (exact) |
 | Shift+RIGHT | Seek +5s (exact) |
+| Ctrl+A / Ctrl+J | Seek -10s |
+| Ctrl+D / Ctrl+L | Seek +10s |
+| Two-finger scroll left | Seek -10s |
+| Two-finger scroll right | Seek +10s |
 
 ### Speed
 | Key | Action |
