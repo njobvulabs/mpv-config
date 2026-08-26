@@ -3,13 +3,18 @@
 ## Quick Install
 
 ```bash
-git clone https://github.com/njobvulabs/mpv-config ~/.config/mpv
-cd ~/.config/mpv && bash install.sh
+git clone https://github.com/njobvulabs/mpv-config /tmp/mpv-config
+bash /tmp/mpv-config/install.sh
 ```
 
-Or download `install.sh` and run it:
+Existing config files are **not overwritten** — only missing files are added. Safe to re-run after updates.
+
+### Updating
+
 ```bash
-bash install.sh
+git clone https://github.com/njobvulabs/mpv-config /tmp/mpv-config
+bash /tmp/mpv-config/install.sh
+rm -rf /tmp/mpv-config
 ```
 
 ## Keybindings (VLC-style)
@@ -51,6 +56,7 @@ bash install.sh
 | Key | Action |
 |-----|--------|
 | f | Toggle fullscreen |
+| Double-click | Toggle fullscreen |
 
 ### Audio
 | Key | Action |
